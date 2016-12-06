@@ -6,12 +6,23 @@ go time formatter cli tool
 ### install
 
 ```
-$ go get github.com/yudppp/gotimefmt
+$ go get github.com/yudppp/gotimefmt/cmd/gotimefmt
 ```
 
 ### use
 
 ```
 $ gotimefmt YYYYMMDD
-20060102
+------------------------------------
+format: 20060102
+now:    20161206
+------------------------------------
+```
+
+```
+$ gotimefmt 20060102
+------------------------------------
+format: 20060102
+now:    20161206
+------------------------------------
 ```
